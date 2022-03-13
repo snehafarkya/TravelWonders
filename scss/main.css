@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Lobster&family=Manrope:wght@300&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fff9f2;
+  background-size: cover;
+  background-image: url("https://wallpaperaccess.com/full/2830028.jpg");
+}
+
+body .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 44em;
+  margin: 0 2em;
+}
+
+body .nav .logo {
+  margin: 0.6em;
+}
+
+body .nav .header {
+  margin-top: 2.5em;
+  text-align: right;
+}
+
+body .nav .header .a {
+  color: purple;
+  text-decoration: none;
+  margin: 6em 1em;
+  font-weight: bold;
+  font-size: 1.3em;
+  text-shadow: plum 1px 2px 3px;
+}
+
+body .nav .header .a:hover {
+  color: purple;
+  border: 10px transparent solid;
+  border-color: transparent;
+  border-radius: 12px;
+  background-color: rgba(44, 180, 243, 0.815);
+  text-decoration: underline;
+}
+
+h2 {
+  position: absolute;
+  top: 3.5em;
+  left: 9em;
+  font-size: 3em;
+}
+
+h2 span {
+  font-family: 'Anton', sans-serif;
+  background: -webkit-linear-gradient(purple, darkblue);
+  -webkit-background-clip: text;
+  word-spacing: 1em;
+  letter-spacing: 0.2em;
+  -webkit-text-fill-color: transparent;
+}
+
+.about {
+  background-color: rgba(0, 255, 255, 0.507);
+}
+/*# sourceMappingURL=main.css.map */
