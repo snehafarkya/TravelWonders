@@ -57,4 +57,42 @@ body .nav .header .a:hover {
 html {
   scroll-behavior: smooth;
 }
+
+.form {
+  margin: 2em;
+}
+
+.form #contact {
+  border: black 2px solid;
+  margin: 1em 30%;
+  padding: 2em;
+  background: rgba(128, 0, 128, 0.562);
+  border-radius: 1.3em;
+  -webkit-filter: drop-shadow(8px 4px 10px rgba(0, 0, 0, 0.397));
+          filter: drop-shadow(8px 4px 10px rgba(0, 0, 0, 0.397));
+}
+
+.form #contact input[type=text], .form #contact input[type=email], .form #contact textarea {
+  font-size: 1.4em;
+  padding: 1em;
+  outline: none;
+  border: white 3px solid;
+  border-radius: 12px;
+  background-color: rgba(255, 255, 255, 0.582);
+  color: darkblue;
+}
+
+.form #contact input[type=submit] {
+  padding: 0.6em;
+  font-size: 1.2em;
+  border-radius: 6px;
+  background: transparent;
+  border: white 2px solid;
+  outline: none;
+}
+
+input:hover{
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.2);
+}
 /*# sourceMappingURL=main.css.map */

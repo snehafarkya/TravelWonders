@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>contact</title>
     <link rel="stylesheet" href="./scss/main.css">
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
     <script type="text/javascript">
         (function () {
              emailjs.init("user_m0sMh3qvjp4HeTas3kAoH");
         })();
-        </script>
+        </script> -->
 </head>
 <body>
     <div class="nav">
@@ -27,13 +27,15 @@
     </div>
     <div class="form">
         <h2>Ahhh....Wanna say something? Just let me know 👇</h2><br>
-         <form id="contact" method="post">
+         <form id="contact" method="POST" action="cont.php">
              <input type="text" id="name"  name="uname" placeholder="Enter Your Name" required><br><br>
              <input type="email" id="email" name="uemail" placeholder="Enter your email" required><br><br>
              <textarea id="w3review" id="message" name="msg" rows="4" cols="23"></textarea><br><br>
-             <input type="submit" name="submit" class="p-6 	color-purple-900 shadow-light"  value="Submit">
+             <input type="submit" name="submit" value="Submit">
          </form>
          </div>
-         <script src="./form.js"></script>
+
+       
+         <!-- <script src="./form.js"></script> -->
 </body>
 </html>
